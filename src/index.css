@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--Bg-color, linear-gradient(180deg, #2B1C4A 0%, rgba(67, 32, 146, 0.80) 29.5%, rgba(0, 118, 171, 0.79) 78.5%, #00BFFF 99.5%));
+  box-sizing: border-box;
+
+
+}
+
+@theme {
+  --font-Poppins: "Poppins", Arial, sans-serif;
+  --font-Montserrat: "Montserrat", Arial, sans-serif;
+  --font-inter: inter, Arial, sans-serif;
+  --color-purple_01: #6E3FE8;
+  --color-blue_01: #2CCFFF
+
+}
+
+
+
+@layer components {
+  .text-gradient-color {
+    @apply  bg-gradient-to-r from-purple_01 from-4% to-blue_01 to-100% bg-clip-text text-transparent;
+  }
+
+  .bgs-icons-gradient {
+    @apply bg-gradient-to-r from-purple_01 to-blue_01 rounded-full blur opacity-30 group-hover:opacity-75;
+  }
+
+  .welcoming-icon-style {
+    @apply  stroke-black drop-shadow-[0_0_5.347px_#2CCFFF]
+  }
+  .primary_gradient {
+    @apply bg-gradient-to-r from-purple_01 from-4% to-blue_01 to-100%
+  }
+}
+
