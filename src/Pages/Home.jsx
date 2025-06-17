@@ -152,7 +152,7 @@ const Home = () => {
                     <div className="text-white font-semibold font-Montserrat text-[12px]">A lot of technlogies waiting for you !</div>
                    </div>
                    <div>
-                   <Spline className="absolute" scene="/src/assets/Animate-box/language_spherers.spline" />;         </div> 
+                   <Spline className="absolute" scene="/src/assets/Animate-box/language_spherers.splinecode" />;         </div> 
                    <div className="absolute bg-gradient-to-b from-[#6E3FE8] to-[#000] border-1 border-[#2CCFFF] w-[300px] h-[170px] z-50 opacity-40 top-9"></div>
 
                 </div>
