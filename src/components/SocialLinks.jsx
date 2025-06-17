@@ -2,8 +2,8 @@ import React from "react";
 import { ExternalLink, Unplug } from "lucide-react";
 import Linkedin from "../assets/SocialLinks_icon/LinkedIn.svg";
 import Instagram from "../assets/SocialLinks_icon/Instagram.svg";
-import Whatsapp from "../assets/SocialLinks_icon/Whatsapp.svg";
-import Github from "../assets/SocialLinks_icon/Github.svg";
+import Whatsapp from "../assets/SocialLinks_icon/WhatsApp.svg";
+import Github from "../assets/SocialLinks_icon/GitHub.svg";
 import Email from "../assets/SocialLinks_icon/Email.svg";
 
 const socialLinks = [
