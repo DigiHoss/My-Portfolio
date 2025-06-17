@@ -136,7 +136,7 @@ const AboutPage = () => {
         id: 2, // Added unique ID for key prop
         icon: certificate,
         color: "from-[#a855f7] to-[#6366f1]",
-        value: totalCertificates,
+        value: 10,
         label: "Certificates",
         description: "Professional skills validated",
         animation: "fade-up",
@@ -187,7 +187,7 @@ const AboutPage = () => {
           <ProfileImage />
         </div>
         <div>
-          <a href="#" className="w-full lg:w-auto">
+          <a href="https://drive.google.com/file/d/1tqbrOkFvan6WjMwPZ9Ko1ris6XS_LQ3-/view?usp=drive_link" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="800"
